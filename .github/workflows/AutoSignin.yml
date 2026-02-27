@@ -1,11 +1,11 @@
 name: AutoCheckin
 
-于: 
+on: 
   workflow_dispatch:
   release:
     types: [published]
   push:
-    标签:
+    tags:
     - 'v*'
   #  branches: 
   #    - master
